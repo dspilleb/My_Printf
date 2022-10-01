@@ -1,0 +1,5 @@
+a.out
+test.c
+.vscode
+.git
+*.o
