@@ -3,3 +3,4 @@ test.c
 .vscode
 .git
 *.o
+printfTester/
