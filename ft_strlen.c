@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dan <dan@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: dspilleb <dspilleb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/11 19:20:17 by dan               #+#    #+#             */
-/*   Updated: 2022/10/02 10:14:57 by dan              ###   ########.fr       */
+/*   Updated: 2023/01/21 20:06:10 by dspilleb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_strlen(char *str)
+size_t	ft_strlen(char const *str)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (str[i])

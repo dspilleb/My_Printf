@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dan <dan@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: dspilleb <dspilleb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/28 13:03:30 by dan               #+#    #+#             */
-/*   Updated: 2022/10/02 16:52:29 by dan              ###   ########.fr       */
+/*   Updated: 2023/01/21 20:09:39 by dspilleb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 #include <limits.h>
 
 int	ft_printf(const char *s, ...)
@@ -39,10 +38,3 @@ int	ft_printf(const char *s, ...)
 	va_end(ap);
 	return (count);
 }
-/*
-int	main(void)
-{
-	ft_printf("%d", ft_printf(" %x ", 0));
-	write(1, "\n", 1);
-	return (0);
-}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dan <dan@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: dspilleb <dspilleb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/01 18:29:08 by dan               #+#    #+#             */
-/*   Updated: 2022/10/02 17:43:24 by dan              ###   ########.fr       */
+/*   Updated: 2023/01/21 20:08:30 by dspilleb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int		ft_printf(const char *s, ...);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(char *s, int fd);
-int		ft_strlen(char *str);
+size_t	ft_strlen(char const *str);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 char	*dec_to_hex_lowercase(unsigned long long nb);
 long	int	len_hex(unsigned long long nb);
