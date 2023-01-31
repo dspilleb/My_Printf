@@ -6,7 +6,7 @@
 /*   By: dspilleb <dspilleb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/02 17:29:36 by dan               #+#    #+#             */
-/*   Updated: 2023/01/21 20:16:30 by dspilleb         ###   ########.fr       */
+/*   Updated: 2023/01/26 14:32:17 by dspilleb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,9 +64,9 @@ int	check_flag2(va_list ap, char c, int count)
 		str = dec_to_hex_lowercase(va_arg(ap, unsigned long long));
 		if (str[0] == '0' && !(str[1]))
 		{
-			ft_putstr_fd("(nil)", 1);
+			ft_putstr_fd("0x0", 1);
 			free (str);
-			return (count + 5);
+			return (count + 3);
 		}
 		write(1, "0x", 2);
 		count += 2;

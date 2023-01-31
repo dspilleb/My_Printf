@@ -6,12 +6,11 @@
 /*   By: dspilleb <dspilleb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/28 13:03:30 by dan               #+#    #+#             */
-/*   Updated: 2023/01/21 20:09:39 by dspilleb         ###   ########.fr       */
+/*   Updated: 2023/01/26 14:33:11 by dspilleb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <limits.h>
 
 int	ft_printf(const char *s, ...)
 {

@@ -6,12 +6,12 @@
 /*   By: dspilleb <dspilleb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/01 18:29:08 by dan               #+#    #+#             */
-/*   Updated: 2023/01/21 20:08:30 by dspilleb         ###   ########.fr       */
+/*   Updated: 2023/01/26 14:28:39 by dspilleb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
-# define FT_PRINT_H
+# define FT_PRINTF_H
 
 # include <stddef.h>
 # include <stdlib.h>
